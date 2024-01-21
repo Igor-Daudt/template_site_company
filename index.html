@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Template site</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="left_header">
+                <a href="company.html"> Sobre Nós</a>
+                <button onclick="scrollToBottom()"> Contato</button>
+            </div>
+            <div class="right_header">
+                <a> +51 9935-5455</a>
+                <a> igordaudt1@gmail.com</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="center navbar">
+            <img src="images/brazil_flag.png" id="logo">
+            <ul>
+                <li>
+                    <a href="index.html" class="underline">Home</a>
+                </li>
+                <li>
+                    <a href="company.html">A Empresa</a>
+                </li>
+                <li>
+                    <a href="catalogue.html">Catálogo</a>
+                </li>
+            </ul>
+            <a> Faça uma verba</a>
+        </div>
+    </nav>
+    <div class="landing_page">
+        <div class="center">
+            <h1>
+                A melhor solução em etiquetas de sapato para sua empresa
+            </h1>
+            <div class="buttons">
+                <a> Saiba mais</a>
+                <a href="catalogue.html"> Nossos Produtos</a>
+            </div>
+            <ul>
+                <li>
+                    <h3 href="#">Vantagens</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, qui ipsa modi eius, ab praesentium ipsam sed voluptatem enim quas reprehenderit non, ullam ad labore numquam cum tempore excepturi nemo.</p>
+                </li>
+                <li>
+                    <h3 href="#">Diferenciais</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore consectetur officia laudantium amet voluptates nulla? Labore cum architecto voluptas? Optio ducimus assumenda facere asperiores! Saepe nobis nostrum sapiente tempore maxime?</p>
+                </li>
+                <li>
+                    <h3 href="#">Diferença agora</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nisi. Natus cumque distinctio adipisci voluptate, quam repellendus, nisi ab, necessitatibus magnam aliquam est consectetur rem! Eius perspiciatis saepe cum illum?</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="small_catalogue">
+        <div class="center">
+            <h2>PRODUTOS</h2>
+            <p> Confira os mais novos produtos de qualidade de ponta</p>
+            <div class="slider-container">
+                <ul class="slides">
+                    <li class="slide">
+                        <a class="image_container">
+                            <img src="images/background.jpg" alt="">
+                        </a>
+                        <a class="nome_produto"> Produto bom</a>
+                        <p> velit voluptates laborum ad vitae corrupti adipisci tempore obcaecati dicta quam consectetur minima necessitatibus?</p>
+                    </li>
+                    <li class="slide">
+                        <a class="image_container">
+                            <img src="images/background.jpg" alt="">
+                        </a>
+                        <a class="nome_produto"> Produto bom</a>
+                        <p> velit voluptates laborum ad vitae corrupti adipisci tempore obcaecati dicta quam consectetur minima necessitatibus?</p>
+                    </li>
+                    <li class="slide">
+                        <a class="image_container">
+                            <img src="images/background.jpg" alt="">
+                        </a>
+                        <a class="nome_produto"> Produto bom</a>
+                        <p> velit voluptates laborum ad vitae corrupti adipisci tempore obcaecati dicta quam consectetur minima necessitatibus?</p>
+                    </li>
+                    <li class="slide">
+                        <a class="image_container">
+                            <img src="images/background.jpg" alt="">
+                        </a>
+                        <a class="nome_produto"> Produto bom</a>
+                        <p> velit voluptates laborum ad vitae corrupti adipisci tempore obcaecati dicta quam consectetur minima necessitatibus?</p>
+                    </li>
+                    <li class="slide">
+                        <a class="image_container">
+                            <img src="images/background.jpg" alt="">
+                        </a>
+                        <a class="nome_produto"> Produto bom</a>
+                        <p> velit voluptates laborum ad vitae corrupti adipisci tempore obcaecati dicta quam consectetur minima necessitatibus?</p>
+                    </li>
+                </ul>
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="sobre_empresa">
+        <div class="center">
+            <h2> Nossa Visão de Mercado</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime officiis similique reiciendis necessitatibus nemo, voluptatibus vitae, neque placeat officia dolorum totam quam veniam maiores veritatis dicta. Iure ipsum suscipit nihil!</p>
+        </div>
+    </div>
+    -->
+
+    <footer>
+        <div class="left">
+            <img src="images/brazil_flag.png">
+            <div class="quick_acess">
+                <ul class="footer_list_names">
+                    <li class="about_us">
+                        <a class="title_footer"> Sobre Nós</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus nihil veritatis accusamus, maiores minus perferendis atque voluptas accusantium similique a itaque asperiores at numquam corrupti ab ipsum fugiat possimus.</p>
+                    </li>
+                    <li>
+                        <h4 class="title_footer">Mapa do Site</h4>
+                        <ul class="items_mapa_site">
+                            <li>
+                                <a href="index.html">Inicial</a>
+                            </li>
+                            <li>
+                                <a href="company.html">Empresa</a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html">Catálogo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 class="title_footer"> Redes Sociais</h4>
+                        <ul class="social_media_list">
+                            <li> 
+                                <img src="images/instagram.png"> 
+                            </li>
+                            <li> 
+                                <img src="images/facebook.png"> 
+                            </li>
+                            <li> 
+                                <img src="images/linkedin.png"> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="info_localizacoes">
+                        <ul>
+                            <li class="info_local">
+                                <a href="" class="items_info">R. Vinte e Quatro de Maio, 1246 - Guarani, Novo Hamburgo - RS, 93520-610</a>
+                            </li>
+                            <li >
+                                <a href="" class="items_info">igordaudt1@gmail.com</a>
+                            </li>
+                            <li >
+                                <a href="" class="items_info">51 99354-4555</a>
+                            </li>
+                            <li >
+                                <a href="" class="items_info">12.123.456/0020-12</a>
+                            </li>       
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <span class="center">
+            Todos os direitos reservados @brazil_flag
+        </span>      
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
